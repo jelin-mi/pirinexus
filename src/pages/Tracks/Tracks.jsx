@@ -1,7 +1,7 @@
 function Tracks() {
   return (
     <>
-      <h1>Bikers</h1>
+      <h1>Tracks</h1>
     </>
   );
 }
