@@ -1,0 +1,30 @@
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+h1 {
+  font-family: "NeueHaasGrotesk_75_Bold";
+}
+
+nav {
+  display: flex;
+  width: auto;
+}
+
+nav a {
+  padding: 14px;
+  font-family: "NeueHaasGrotesk_55_Roman";
+  text-decoration: none;
+  color: var(--text);
+  font-size: 15px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
