@@ -1,28 +1,25 @@
 /* Navbar */
 header {
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-    max-width: 100%;
-    align-items: center;
-    padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  padding: 20px 40px;
 }
 
 nav {
-    display: flex;
-    width: auto;
+  display: flex;
+  width: auto;
 }
 
 nav a {
-    padding: 14px;
-    text-decoration:none;
-    color: var(--text);
-    font-size: 16px;
+  padding: 14px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 16px;
 }
 
-nav a:hover{
-    font-weight: bold;
+nav a:hover {
+  font-weight: bold;
 }
-
-
-
