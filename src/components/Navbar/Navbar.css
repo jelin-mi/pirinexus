@@ -25,6 +25,10 @@ nav a {
   font-size: 15px;
 }
 
+nav a.selected {
+  font-family: "NeueHaasGrotesk_75_Bold";
+}
+
 nav a:hover {
-  font-weight: bold;
+  font-family: "NeueHaasGrotesk_75_Bold";
 }
