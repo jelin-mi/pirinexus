@@ -40,18 +40,18 @@ function Carousel({ children }) {
     };
   });
 
-    const handlers = useSwipeable({
-        onSwipedLeft: () => updateIndex(activeIndex + 1),
-        onSwipedRight: () => updateIndex(activeIndex - 1)
-    });
-    
+  const handlers = useSwipeable({
+    onSwipedLeft: () => updateIndex(activeIndex + 1),
+    onSwipedRight: () => updateIndex(activeIndex - 1),
+  });
+
   return (
-      <div
-          {...handlers}
-          className="carousel"
-          onMouseEnter={() => setPaused(true)}
-          onMouseLeave={() => setPaused(false)}
-      >
+    <div
+      {...handlers}
+      className="carousel"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
       <div
         className="inner"
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
@@ -69,6 +69,7 @@ function Carousel({ children }) {
           Prev
         </button>
 
+{/* items' numbers start*/}
         {React.Children.map(children, (child, index) => {
           return (
             <button
@@ -81,6 +82,7 @@ function Carousel({ children }) {
             </button>
           );
         })}
+{/* items' numbers end*/}
 
         <button
           onClick={() => {
@@ -95,7 +97,6 @@ function Carousel({ children }) {
 }
 
 export default Carousel;
-
 
 /*
 A swipeable carousel on mobile devices

@@ -1,31 +1,42 @@
 .carousel {
-    overflow: hidden;   /* hide the overflow content inside in order to show the active item only */
+  overflow: hidden; /* hide the overflow content inside in order to show the active item only */
 }
 
 .inner {
-    white-space: nowrap;    /* keep our items in 1 line otherwise they will break into the new line by default */
-    transition: transform 0.3s;     /* it will be animated when changing the active item */
+  white-space: nowrap; /* keep our items in 1 line otherwise they will break into the new line by default */
+  transition: transform 0.3s; /* it will be animated when changing the active item */
 }
 
 .carousel-item {
-    display: inline-flex;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #526547;
+  color: #fff;
+  border: solid 3px red; /* //TODO */
+}
+
+.item {     /* //TODO */
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 200px;
-    background-color: #526547;
-    color: #fff;
+}
+
+.carousel-item img {
+    width: 350px;
 }
 
 .indicators {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .indicators > button {
-    margin: 5px;
+  margin: 5px;
 }
 
 .indicators > button.active {
-    background-color: #526547;
-    color: #fff;
+  background-color: #526547;
+  color: #fff;
 }

@@ -7,9 +7,15 @@ function Home() {
     <>
       <Herohome />
       <Carousel>
-        <CarouselItem>Item 1</CarouselItem>
-        <CarouselItem>Item 2</CarouselItem>
-        <CarouselItem>Item 3</CarouselItem>
+        <CarouselItem>
+          <div className="item">
+            <h3>Ruta 1</h3>
+            <img src={fullImage} alt='ruta' />
+          </div>
+          
+        </CarouselItem>
+        <CarouselItem>Ruta 2</CarouselItem>
+        <CarouselItem>Ruta 3</CarouselItem>
       </Carousel>
       <img src={fullImage} alt="pirinexus" />
     </>
