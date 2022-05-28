@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { useSwipeable } from "react-swipeable";
+
 import "./Carousel.css";
 
 export function CarouselItem({ children, width }) {
@@ -38,8 +40,15 @@ function Carousel({ children }) {
     };
   });
 
+    const handlers = useSwipeable({
+        onSwipedLeft: () => updateIndex(activeIndex + 1),
+        onSwipedRight: () => updateIndex(activeIndex - 1)
+    });
+    
   return (
-      <div className="carousel"
+      <div
+          {...handlers}
+          className="carousel"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
       >
@@ -93,5 +102,5 @@ A swipeable carousel on mobile devices
 
 We can do it manually by using the onTouchStart and onTouchEnd but I will use a library to reduce the complexity.I will be using the react - swipeable package which you can find out here https://www.npmjs.com/package/react-swipeable
 
-Note: Please ensure you npm i react-swipeable to install this package
+Note: Please ensure you 'npm i react-swipeable' to install this package
 */
