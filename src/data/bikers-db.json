@@ -1,0 +1,31 @@
+[
+    {
+      "_id": "abc123",
+      "biker": "Biker 1",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+      "img": "/javi_diaz_biker.jpg",
+      "img_bike": "bike_01.svg",
+      "bike": "The Furious Bike",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+      "weight": "Peralada - Girona, 132",
+      "size": "645 mm x 585 mm x 270 mm",
+      "transmission": "Monoplato 38-11/42",
+      "wheels": "Triban Tubeless Ready"
+    },
+
+    {
+        "_id": "abc124",
+        "biker": "Biker 2 ",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+        "img": "/javi_diaz_biker.jpg",
+        "img_bike": "bike_01.svg",
+        "bike": "The Monkey Bike",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+        "weight": "Peralada - Girona, 132",
+        "size": "645 mm x 585 mm x 270 mm",
+        "transmission": "Monoplato 38-11/42",
+        "wheels": "Triban Tubeless Ready"
+      }
+  
+  ]
+  
