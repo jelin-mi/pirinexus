@@ -1,16 +1,15 @@
 import Footer from "../../components/Footer/Footer";
-import RouteList from "../../components/Routelist/RouteList";
+import RouteList from "../../components/RouteList/RouteList";
 import "./Tracks.css";
 
-function Tracks({data}) {
-  
+function Tracks({ data }) {
   return (
     <>
       <div className="header-title">
         <h1>Tracks</h1>
       </div>
-      <RouteList data={data}/>
-      <Footer/>
+      <RouteList data={data} />
+      <Footer />
     </>
   );
 }

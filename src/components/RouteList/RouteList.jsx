@@ -40,7 +40,8 @@ function RouteList() {
 }
 export default RouteList;
 
-{
+
+
   /*  <Link to={`/tracks/${track._id}`}>
             <div className={`card ${track._id}`} key={track._id}>
               <div className="box-img">
@@ -53,4 +54,4 @@ export default RouteList;
               </div>
             </div>
           </Link> */
-}
+

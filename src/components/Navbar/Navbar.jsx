@@ -8,9 +8,25 @@ function Navbar() {
         <h1>pirineXus</h1>
       </div>
       <nav>
-        <NavLink to="/" className={({ isActive }) => (isActive ? "selected" : "")}> Home </NavLink>
-        <NavLink to="/tracks" className={({ isActive }) => (isActive ? "selected" : "")}>Tracks</NavLink>
-        <NavLink to="/bikers" className={({ isActive }) => (isActive ? "selected" : "")}>Bikers</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "selected" : "")}
+        >
+          {" "}
+          Home{" "}
+        </NavLink>
+        <NavLink
+          to="/tracks"
+          className={({ isActive }) => (isActive ? "selected" : "")}
+        >
+          Tracks
+        </NavLink>
+        <NavLink
+          to="/bikers"
+          className={({ isActive }) => (isActive ? "selected" : "")}
+        >
+          Bikers
+        </NavLink>
       </nav>
     </header>
   );
