@@ -1,30 +1,23 @@
 [
   {
-    "_id": "ruta-1",
+    "_id": "1",
     "title": "Ruta 1 ",
     "ruta": "Peralada - Girona, 132 km",
     "description": "El Baix Empordà es una de las mejores comarcas ciclables por las que pasa Pirinexus. Esto se traduce en 3 kilómetros de caminos ciclables bien cuidados, mayoritariamente llanos y fáciles de recorrer. Los apasionados de la cultura medieval tenéis una cita indispensable con el Baix Empordà, puesto que dispone de una gran cantidad de municipios con vestigios de la época.",
     "img": "/picture.jpg" 
   },
   {
-    "_id": "ruta-2",
+    "_id": "2",
     "title": "Ruta 2",
     "ruta": "Girona - Sant Joan de les Abadesses, 130 km",
     "description": "El tramo que discurre por Francia nos garantiza una de las mejores experiencias ciclables de toda la ruta Pirinexus. Bordeando los Pirineos fronterizos, disfrutaremos de vistas y parajes excepcionales, pero también nos impregnaremos de historia: monumentos medievales, esculturas, museos e incluso vestigios romanos de la vía Domitia y la Vía Augusta son algunas de las cosas que nos esperan en esta ruta.",
     "img": "/picture.jpg" 
   },
   {
-    "_id": "ruta-3",
+    "_id": "3",
     "title": "Ruta 3",
     "ruta": "Sant Joan de les Abadesses - Peralada, 100 km",
     "description": "La Ruta del Carrilet I atraviesa tres comarcas y doce pueblos, así como parajes de gran importancia paisajística, ecológica y cultural, a través de sus 54 kilómetros de sablón compactado. La vía que antiguamente unía La Garrotxa y el Gironès permite ahora conocer los recursos naturales de la Zona Volcànica de la Garrotxa, y entre otros, los cascos urbanos de Anglès, donde podréis leer historia en cada una de sus piedras.",
-    "img": "/picture.jpg" 
-  },
-  {
-    "_id": "ruta-4",
-    "title": "Ruta 2",
-    "ruta": "Girona - Sant Joan de les Abadesses, 130 km",
-    "description": "El tramo que discurre por Francia nos garantiza una de las mejores experiencias ciclables de toda la ruta Pirinexus. Bordeando los Pirineos fronterizos, disfrutaremos de vistas y parajes excepcionales, pero también nos impregnaremos de historia: monumentos medievales, esculturas, museos e incluso vestigios romanos de la vía Domitia y la Vía Augusta son algunas de las cosas que nos esperan en esta ruta.",
     "img": "/picture.jpg" 
   }
 ]

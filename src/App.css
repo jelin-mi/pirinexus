@@ -41,3 +41,7 @@ body {
   overflow-x: hidden;
   color: var(--text);
 }
+
+strong {
+  font-family: "NeueHaasGrotesk_75_Bold";
+}
