@@ -40,10 +40,10 @@ export default function Carousel() {
         noSwipingSelector="img"
         watchSlidesProgress={true}
       >
-        <SwiperSlide><img alt="picture" src={picture}/></SwiperSlide>
-        <SwiperSlide><img alt="picture" src={picturemtb}/></SwiperSlide>
-        <SwiperSlide><img alt="picture" src={picture}/></SwiperSlide>
-        <SwiperSlide><img alt="picture" src={picturemtb}/></SwiperSlide>
+        <SwiperSlide><img alt="pic" src={picture}/></SwiperSlide>
+        <SwiperSlide><img alt="pic" src={picturemtb}/></SwiperSlide>
+        <SwiperSlide><img alt="pic" src={picture}/></SwiperSlide>
+        <SwiperSlide><img alt="pic" src={picturemtb}/></SwiperSlide>
         {/*<SwiperSlide>Slide 4</SwiperSlide>
          <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
