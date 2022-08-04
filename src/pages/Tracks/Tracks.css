@@ -1,1 +1,11 @@
 /* Tracks */
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 0.8em;
+}
+
+.header-title h1{
+    font-size: 60px;
+}

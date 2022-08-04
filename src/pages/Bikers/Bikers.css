@@ -1,1 +1,60 @@
 /* Bikers */
+
+.bikerslist{
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5em 0 7em;
+}
+
+.bikerslist .block{
+    padding: 2em 0;
+}
+
+.bikerslist .block .row{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 7em;
+    gap:4em
+}
+
+.bikerslist .block .row div{
+    width: 50%;
+}
+
+
+.bikerslist .block div.box-text h2{
+    font-size: 38px;
+    padding-bottom: 0.5em;
+    font-family: "NeueHaasGrotesk_75_Bold";
+}
+
+.bikerslist .block div.box-img{
+    text-align: left;
+}
+
+.bikerslist .block img {
+    max-width: 380px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bikerslist .block .row .box-img.bike img {
+    max-width: 380px;
+    height: auto;
+    border-radius: 0;
+   
+}
+
+.bikerslist .block div.box-text p{
+    padding-bottom: 0.5em;
+    line-height: 27px;
+}
+
+.bikerslist .block div.box-text strong{
+    font-family: "NeueHaasGrotesk_75_Bold";
+}
+

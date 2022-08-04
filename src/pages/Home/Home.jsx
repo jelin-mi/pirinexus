@@ -1,23 +1,15 @@
-import Carousel, { CarouselItem } from "../../components/CarouselHome/Carousel";
 import Herohome from "../../components/Herohome/Herohome";
-import fullImage from "../../assets/images/home_full-width.jpeg";
+import Carousel from "../../components/Carousel/Carousel";
+import Banner from "../../components/Banner/Banner";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
     <>
       <Herohome />
-      <Carousel>
-        <CarouselItem>
-          <div className="item">
-            <h3>Ruta 1</h3>
-            <img src={fullImage} alt='ruta' />
-          </div>
-          
-        </CarouselItem>
-        <CarouselItem>Ruta 2</CarouselItem>
-        <CarouselItem>Ruta 3</CarouselItem>
-      </Carousel>
-      <img src={fullImage} alt="pirinexus" />
+      <Carousel />
+      <Banner />
+      <Footer />
     </>
   );
 }
