@@ -1,31 +1,69 @@
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 50px 10px;
-  color: var(--white);
-  background-color: var(--text);
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  max-width: 100%;
-  font-family: "NeueHaasGrotesk_55_Roman";
-}
-footer h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+footer{
+    background-color: black;
+    padding: 2em;
+    width:100%;
+    height: auto;
 }
 
-footer a {
-  color: var(--white);
-  text-decoration: none;
+
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-footer a:hover {
-  color: var(--black);
+
+footer .logo h2{
+    color:#fff;
+    font-size: 28px;
+    font-weight: 800;
 }
 
-footer ul {
-    line-height: 25px;
+footer .column nav {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer .column p{
+    color:#fff;
+    opacity: 1;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+footer .column p a{
+    color: #fff;
+    display: block;
+    padding-bottom: 10px;
+}
+
+footer .column svg{
+    font-size: 25px;
+    margin-right: 10px;
+    height: auto;
+    opacity: 1;
+    color: #fff;
+}
+
+footer .column .icons{
+    display:flex;
+    vertical-align: baseline;
+}
+
+footer .column nav a{
+    color: #fff;
+    padding: 6px 0;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+footer h2{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 0.8em;
+    font-weight: 400;
 }
