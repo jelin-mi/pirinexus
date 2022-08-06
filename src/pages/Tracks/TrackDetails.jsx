@@ -5,12 +5,14 @@ import Footer from "../../components/Footer/Footer";
 
 function TrackDetails() {
   const { id } = useParams();
+  const selectedTrack = tracks.filter((track) => track._id === id);
+
   return (
     <>
       <div className="route-details">
         <h1>Route details - {id}</h1>
         <br />
-        {tracks.map((track) => (
+        {selectedTrack.map((track) => (
           <div key={track._id} className="details">
             <ul>
               <li>
