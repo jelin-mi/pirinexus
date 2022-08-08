@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <header>
       <div className="logo">
-        <h1>pirineXus</h1>
+        <span>pirineXus</span>
       </div>
       <nav>
         <NavLink
