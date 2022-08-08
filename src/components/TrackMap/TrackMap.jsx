@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function TrackMap() {
   return (
-    <div className="routelist">
+    <div className="trackslist">
       {tracks.map((track) => (
         <Link to={`/tracks/${track._id}`}>
           <div className={`card ${track._id}`} key={track._id}>
