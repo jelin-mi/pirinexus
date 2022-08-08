@@ -5,12 +5,28 @@ function Navbar() {
   return (
     <header>
       <div className="logo">
-        <h1>pirineXus</h1>
+        <span>pirineXus</span>
       </div>
       <nav>
-        <NavLink to="/" className={({ isActive }) => (isActive ? "selected" : "")}> Home </NavLink>
-        <NavLink to="/tracks" className={({ isActive }) => (isActive ? "selected" : "")}>Tracks</NavLink>
-        <NavLink to="/bikers" className={({ isActive }) => (isActive ? "selected" : "")}>Bikers</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "selected" : "")}
+        >
+          {" "}
+          Home{" "}
+        </NavLink>
+        <NavLink
+          to="/tracks"
+          className={({ isActive }) => (isActive ? "selected" : "")}
+        >
+          Tracks
+        </NavLink>
+        <NavLink
+          to="/bikers"
+          className={({ isActive }) => (isActive ? "selected" : "")}
+        >
+          Bikers
+        </NavLink>
       </nav>
     </header>
   );

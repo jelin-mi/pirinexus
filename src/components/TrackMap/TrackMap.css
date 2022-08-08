@@ -1,4 +1,4 @@
-.routelist {
+.trackslist {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -8,33 +8,39 @@
     padding: 5em 0 7em;
 }
 
-.routelist .card{
+.trackslist a{
     width: calc(50% - 3em);
+    color: var(--text);
+    text-decoration: none;
+}
+
+.trackslist .card{
+    display: flex;
     flex-direction: column;
 }
 
-.routelist .card:nth-child(even) {
+.trackslist a:nth-child(even) {
     padding-top: 80px;
 }
 
-.routelist .card .box-text{
+.trackslist .card .box-text{
     background-color: #f5f5f5;
     padding: 2em;
     border-radius: 0 0 8px 8px;  
 }
 
-.routelist .card .box-text h2 {
+.trackslist .card .box-text h2 {
     font-family: "NeueHaasGrotesk_75_Bold";
     font-size: 25px;
     padding-bottom: 0.25em;
 }
 
-.routelist .card .box-text p {
+.trackslist .card .box-text p {
     font-size: 16px;
     font-family: "NeueHaasGrotesk_55_Roman";
 }
 
-.routelist .card .box-img {
+.trackslist .card .box-img {
     flex-basis: 50%;
     overflow: hidden;
     height: auto;
@@ -46,12 +52,12 @@
     position: relative;
 }
 
-.routelist .card .box-img:hover .overlay{
+.trackslist .card .box-img:hover .overlay{
     opacity: 0;
     
 }
 
-.routelist .card .box-img .overlay{
+.trackslist .card .box-img .overlay{
     opacity: 1;
     position: absolute;
     width: 100%;
@@ -59,7 +65,7 @@
     background: linear-gradient(transparent,rgba(0,0,0,.6));
 }
 
-.routelist .card .box-img img{
+.trackslist .card .box-img img{
     width: 100%;
     position: relative;
     height: auto;
@@ -71,7 +77,7 @@
     -o-transition: 0.60s;
 }
 
-.routelist .card .box-img:hover img{
+.trackslist .card .box-img:hover img{
     transform: scale(1.10);
     -webkit-transform: scale(1.10);
     -moz-transform: scale(1.10);

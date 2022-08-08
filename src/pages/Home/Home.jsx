@@ -6,10 +6,10 @@ import Footer from "../../components/Footer/Footer";
 function Home() {
   return (
     <>
-    <Herohome/>
-    <Carousel />
-    <Banner/>
-    <Footer/>
+      <Herohome />
+      <Carousel />
+      <Banner />
+      <Footer />
     </>
   );
 }
