@@ -8,6 +8,11 @@ header {
   padding: 20px 40px;
 }
 
+header .logo span{
+  font-size:30px;
+  font-family: "NeueHaasGrotesk_75_Bold";
+}
+
 h1 {
   font-family: "NeueHaasGrotesk_75_Bold";
 }

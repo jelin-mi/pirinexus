@@ -1,3 +1,41 @@
-.track-details img {
-    max-width: 250px;
+
+.block-details{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.block-details .boxTextBackground{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.block-details .boxTextBackground .boxText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.block-details h2{
+    font-size: 38px;
+    padding-bottom: 0.5em;
+    font-family: "NeueHaasGrotesk_75_Bold";
+    color: var(--text);
+}
+
+.block-details p {
+    padding-bottom: 0.5em;
+    line-height: 27px;
+    color: var(--text);
+}
+
+.block-details img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
 }

@@ -16,7 +16,7 @@ function Herohome() {
 
           <button>
             <Link className="button secondary" to="/bikers">
-              Participantes
+             Bikers
             </Link>
           </button>
         </div>

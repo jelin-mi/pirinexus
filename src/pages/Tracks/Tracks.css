@@ -9,3 +9,22 @@
 .header-title h1{
     font-size: 60px;
 }
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon svg{
+    height: 60px;
+    width: auto;
+}
+
+@media (max-width: 800px){
+
+    .vertical-lines{
+        display: none;
+    }
+}

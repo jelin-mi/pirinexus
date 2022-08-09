@@ -1,7 +1,10 @@
 import { useParams } from "react-router-dom";
 import "./TrackDetails.css";
-import tracks from "../../tracks-db.json";
+import tracks from "../../data/tracks-db.json";
 import Footer from "../../components/Footer/Footer";
+/* import Banner from "../../components/Banner/Banner"; */
+import HeaderTracks from "./TracksHeader";
+import Video from "../../components/Video/Video";
 
 function TrackDetails() {
   const { id } = useParams();
@@ -9,34 +12,55 @@ function TrackDetails() {
 
   return (
     <>
-      <div className="route-details">
-        <h1>Route details - {id}</h1>
-        <br />
+      <HeaderTracks />
+      <Video/>
+      {/* <Banner /> */}
+      <div className="track-details">
         {selectedTrack.map((track) => (
           <div key={track._id} className="details">
-            <ul>
-              <li>
-                <strong>id:</strong> {track._id}
-              </li>
-              <li>
-                <strong>title:</strong> {track.title}
-              </li>
-              <li>
-                <strong>ruta:</strong> {track.ruta}
-              </li>
-              <li>
-                <strong>description:</strong> {track.description}
-              </li>
-            </ul>
-            <div className="track-details">
-              <img src={track.img} alt="" />
+            <div className="block-details">
+              <div className="boxTextBackground">
+                <div className="boxText">
+                  <h2>{track.block_title_1}</h2>
+                  <p>{track.block_text_1}</p>
+                </div>
+              </div>
+              <div className="boxImage">
+                  <img src={track.block_img_3} alt="" />
+              </div>
+            </div>
+            <div className="block-details">
+              <div className="boxImage">
+                <img src={track.block_img_2} alt="" />
+              </div>
+              <div className="boxTextBackground">
+                <div className="boxText">
+                  <h2>{track.block_title_2}</h2>
+                  <p>{track.block_text_2}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="block-details">
+              <div className="boxTextBackground">
+                <div className="boxText">
+                  <h2>{track.block_title_3}</h2>
+                  <p>{track.block_text_3}</p>
+                </div>
+              </div>
+              <div className="boxImage">
+                <img src={track.block_img_3} alt="" />
+              </div>
             </div>
           </div>
         ))}
       </div>
+
       <Footer />
     </>
   );
 }
+
+<style></style>;
 
 export default TrackDetails;

@@ -1,4 +1,4 @@
-import tracks from "../../tracks-db.json";
+import tracks from "../../data/tracks-db.json";
 import "./TrackMap.css";
 import { Link } from "react-router-dom";
 
