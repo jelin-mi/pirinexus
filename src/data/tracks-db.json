@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "ruta-1",
+    "title": "Ruta 1 ",
+    "ruta": "Peralada - Girona, 132 km",
+    "description": "El Baix Empordà es una de las mejores comarcas ciclables por las que pasa Pirinexus. Esto se traduce en 3 kilómetros de caminos ciclables bien cuidados, mayoritariamente llanos y fáciles de recorrer. Los apasionados de la cultura medieval tenéis una cita indispensable con el Baix Empordà, puesto que dispone de una gran cantidad de municipios con vestigios de la época.",
+    "img": "/picture.jpg",
+    "block_title_1": "The mountain is pure adventure",
+    "block_text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_1": "/biker_01.jpg",
+    "block_title_2": "The road is for sharks",
+    "block_text_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_2": "/biker_00.jpg",
+    "block_title_3": "Enjoy the trip with your friends",
+    "block_text_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_3": "/biker_02.jpg"
+  },
+  {
+    "_id": "ruta-2",
+    "title": "Ruta 2",
+    "ruta": "Girona - Sant Joan de les Abadesses, 130 km",
+    "description": "El tramo que discurre por Francia nos garantiza una de las mejores experiencias ciclables de toda la ruta Pirinexus. Bordeando los Pirineos fronterizos, disfrutaremos de vistas y parajes excepcionales, pero también nos impregnaremos de historia: monumentos medievales, esculturas, museos e incluso vestigios romanos de la vía Domitia y la Vía Augusta son algunas de las cosas que nos esperan en esta ruta.",
+    "img": "/picture.jpg",
+    "block_title_1": "The mountain is pure adventure",
+    "block_text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_1": "/brompton_01.jpg",
+    "block_title_2": "The road is for sharks",
+    "block_text_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_2": "/brompton_01.jpg",
+    "block_title_3": "Enjoy the trip with your friends",
+    "block_text_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_3": "/brompton_01.jpg"
+
+  },
+  {
+    "_id": "ruta-3",
+    "title": "Ruta 3",
+    "ruta": "Sant Joan de les Abadesses - Peralada, 100 km",
+    "description": "La Ruta del Carrilet I atraviesa tres comarcas y doce pueblos, así como parajes de gran importancia paisajística, ecológica y cultural, a través de sus 54 kilómetros de sablón compactado. La vía que antiguamente unía La Garrotxa y el Gironès permite ahora conocer los recursos naturales de la Zona Volcànica de la Garrotxa, y entre otros, los cascos urbanos de Anglès, donde podréis leer historia en cada una de sus piedras.",
+    "img": "/picture.jpg",
+    "block_title_1": "The mountain is pure adventure",
+    "block_text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_1": "/brompton_01.jpg",
+    "block_title_2": "The road is for sharks",
+    "block_text_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_2": "/brompton_01.jpg",
+    "block_title_3": "Enjoy the trip with your friends",
+    "block_text_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.",
+    "block_img_3": "/brompton_01.jpg"
+  }
+]

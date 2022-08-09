@@ -6,7 +6,7 @@ import Tracks from "./pages/Tracks/Tracks.jsx";
 import Bikers from "./pages/Bikers/Bikers.jsx";
 import Error from "./pages/Error/Error.jsx";
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import TrackDetails from "./pages/Tracks/TrackDetails";
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tracks" element={<Tracks />} />
+        <Route path="/tracks/:id" element={<TrackDetails />} />
         <Route path="/bikers" element={<Bikers />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
