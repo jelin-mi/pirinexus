@@ -1,48 +1,54 @@
 import "./TracksHeader.css";
+import tracks from "../../data/tracks-db.json";
+import { useParams } from "react-router-dom";
+
+// icons
 import { ReactComponent as Bike } from "../../assets/images/icon_bike.svg";
 import { ReactComponent as Time } from "../../assets/images/icon_clock.svg";
-/* import { ReactComponent as Map } from "../../assets/images/icon_map.svg"; */
 import { ReactComponent as Distance } from "../../assets/images/icon_distance.svg";
 import { ReactComponent as LevelMedium } from "../../assets/images/icon_level_medium.svg";
 
+function TracksHeader() {
+  const { id } = useParams();
+  const selectedTrack = tracks.filter((track) => track._id === id);
 
-function HeaderTracks() {
-    return (
+  return (
     <div className="track-details">
-        <div className="header-full">
-          <div class="vertical-lines faqs-grid">
-            <div class="line l1 active"></div>
-            <div class="line l2 active"></div>
-            <div class="line l3 active"></div>
-            <div class="line l4 active"></div>
-          </div>
-        <div class="header-title">
-          <h1>Ruta 1</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci consequat tortor tellus neque mauris rhoncus, accumsan. Dictum imperdiet feugiat dis id massa feugiat. A id diam, magnis purus. Mi neque sem ultrices phasellus mauris nibh ipsum nibh. Ut felis arcu tristique urna ut egestas elit, duis viverra.</p>
-          <div className="icons">
-              <div className="icon">
-                   <Bike/>
-                  <span>Gravel</span>
-              </div>
-              <div className="icon">
-                  <Distance/>
-                  <span>131.9Km</span>
-              </div>
-              <div className="icon">
-                  <Time/>
-                  <span>11h 55m</span>
-              </div>
-               
-              <div className="icon">
-                  <LevelMedium/>
-                  <span>Medio</span>
-              </div>
-          </div>
-          </div>
+      <div className="header-full">
+        <div class="vertical-lines faqs-grid">
+          <div class="line l1 active"></div>
+          <div class="line l2 active"></div>
+          <div class="line l3 active"></div>
+          <div class="line l4 active"></div>
         </div>
-    </div>
+        {selectedTrack.map((track) => (
+          <div class="header-title">
+            <h1>{track.title}</h1>
+            <p>{track.description}</p>
+            <div className="icons">
+              <div className="icon">
+                <Bike />
+                <span>{track.icon_bike}</span>
+              </div>
+              <div className="icon">
+                <Distance />
+                <span>{track.icon_distance}</span>
+              </div>
+              <div className="icon">
+                <Time />
+                <span>{track.icon_time}</span>
+              </div>
 
-);
+              <div className="icon">
+                <LevelMedium />
+                <span>{track.icon_level}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
-export default HeaderTracks;
+export default TracksHeader;

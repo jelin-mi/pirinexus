@@ -3,7 +3,7 @@ import "./TrackDetails.css";
 import tracks from "../../data/tracks-db.json";
 import Footer from "../../components/Footer/Footer";
 /* import Banner from "../../components/Banner/Banner"; */
-import HeaderTracks from "./TracksHeader";
+import TracksHeader from "./TracksHeader";
 import Video from "../../components/Video/Video";
 
 function TrackDetails() {
@@ -12,7 +12,7 @@ function TrackDetails() {
 
   return (
     <>
-      <HeaderTracks />
+      <TracksHeader />
       <Video/>
       {/* <Banner /> */}
       <div className="track-details">
