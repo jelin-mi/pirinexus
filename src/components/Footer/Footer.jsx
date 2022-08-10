@@ -20,9 +20,6 @@ function Footer() {
             <a href="mailto:info.jandcreative@gmail.com" class="mail">
               info.jandcreative@gmail.com
             </a>
-            Carretera de Terrassa 37 2-1
-            <br />
-            08019 Rubí
           </p>
         </div>
 
@@ -36,10 +33,22 @@ function Footer() {
         </div>
 
         <div className="column">
-          <h2>Legal stuff</h2>
+          <h2>Más información</h2>
           <nav>
-            <NavLink to="/privacy">Privacy Policy</NavLink>
-            <NavLink to="/legal">Legal Notice</NavLink>
+            <a
+              href="https://www.viesverdes.cat/wp-content/uploads/2022/08/Desplegable_cicloturisme_2022.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              El folleto con mapa
+            </a>
+            <a
+              href="https://www.viesverdes.cat/es/caracteristiques-vies-verdes-pirinexus/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vías Verdes / Pirinexus
+            </a>
           </nav>
         </div>
 
