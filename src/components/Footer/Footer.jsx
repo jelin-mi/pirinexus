@@ -1,8 +1,6 @@
 import "./Footer.css";
 import { NavLink, Link } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -49,22 +47,21 @@ function Footer() {
             >
               Vías Verdes / Pirinexus
             </a>
+            <a
+              href="https://www.instagram.com/explore/tags/pirinexus/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              #pirinexus
+            </a>
           </nav>
         </div>
 
         <div className="column">
-          <h2>Follow me</h2>
-
+          <h2> </h2>
           <div className="icons">
-            <Link to="#">
-              {" "}
-              <FaYoutube />
-            </Link>
-            <Link to="#">
+            <Link to="https://www.instagram.com/viesverdesgi/">
               <FaInstagram />
-            </Link>
-            <Link to="#">
-              <FaLinkedin />
             </Link>
           </div>
         </div>
