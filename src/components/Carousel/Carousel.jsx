@@ -31,6 +31,8 @@ export default function Carousel() {
         watchSlidesProgress={true}
       >
         <SwiperSlide>
+          <h2>Ruta #1: 132 km</h2>  {/* //TODO  */}
+          <h3>Peralada - Girona</h3>
           <img alt="pic" src={picture} />
         </SwiperSlide>
         <SwiperSlide>
