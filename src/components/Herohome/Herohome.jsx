@@ -9,7 +9,7 @@ function Herohome() {
         <h2>Pirinexus Challenge</h2>
         <div className="button-container">
           <button>
-            <Link className="button" to="#">
+            <Link className="button" to="/tracks">
               Saber más
             </Link>
           </button>
