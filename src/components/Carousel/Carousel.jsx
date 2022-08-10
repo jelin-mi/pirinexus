@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import picturemtb from "../../assets/images/mtb.jpg";
 import picture from "../../assets/images/picture.jpg";
-
 import "./Carousel.css";
 
 // import required modules
@@ -31,7 +30,7 @@ export default function Carousel() {
         watchSlidesProgress={true}
       >
         <SwiperSlide>
-          <h2>Ruta #1: 132 km</h2>  {/* //TODO  */}
+          <h2>Ruta #1: 132 km</h2> {/* //TODO  */}
           <h3>Peralada - Girona</h3>
           <img alt="pic" src={picture} />
         </SwiperSlide>
@@ -40,9 +39,6 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
           <img alt="pic" src={picture} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img alt="pic" src={picturemtb} />
         </SwiperSlide>
       </Swiper>
     </div>
