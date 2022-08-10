@@ -1,7 +1,6 @@
 import "./Tracks.css";
 import desnivel from "../../assets/images/desnivel.png";
 import TrackMap from "../../components/TrackMap/TrackMap";
-import Banner from "../../components/Banner/Banner";
 import Footer from "../../components/Footer/Footer";
 
 function Tracks() {
@@ -22,9 +21,7 @@ function Tracks() {
         Tramuntana sople a favor del ciclista.
       </p>
       <TrackMap />
-      <h2>Desnivel</h2>
       <img src={desnivel} alt="desnivel" className="desnivel" />
-      <Banner />
       <Footer />
     </>
   );
