@@ -14,7 +14,7 @@ function TrackMap() {
             </div>
             <div className="box-text">
               <h2>{track.title}</h2>
-              <p>{track.ruta}</p>
+              <p>{track.etapa}</p>
             </div>
           </div>
         </Link>

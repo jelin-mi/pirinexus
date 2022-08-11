@@ -7,7 +7,7 @@ function Tracks() {
   return (
     <>
       <div className="header-title">
-        <h1>Tracks - Rutas</h1>
+        <h1>PirineXus, allá vamos</h1>
       </div>
       <p>
         <strong>Pirinexus</strong> es una ruta circular de{" "}
@@ -20,6 +20,7 @@ function Tracks() {
         recomienda pedalear en el sentido de las agujas del reloj para que la
         Tramuntana sople a favor del ciclista.
       </p>
+      <p>Nosotros decidimos hacer la ruta de Pirinexus en <strong>3 etapas</strong> individuales.</p>
       <TrackMap />
       <img src={desnivel} alt="desnivel" className="desnivel" />
       <Footer />
